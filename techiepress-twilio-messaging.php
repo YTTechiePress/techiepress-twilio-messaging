@@ -47,6 +47,9 @@ use Twilio\Rest\Client;
 
 // Event of a new email for the order - change in status
 add_action( 'woocommerce_order_status_changed', 'techiepress_send_sms_on_new_order_status', 10, 4 );
+
+// Event of a new email for new order
+add_action( 'woocommerce_new_order', 'techiepress_send_sms_on_new_order_status', 10, 1 );
  
 // Event of the order note
 add_action( 'woocommerce_new_customer_note_notification', 'techiepress_send_sms_on_new_order_notes', 10, 1 );
