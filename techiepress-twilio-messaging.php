@@ -26,8 +26,8 @@ use Twilio\Rest\Client;
 // function techiepress_publish_post_twilio( $post_id ) {
 
 //     // Your Account SID and Auth Token from twilio.com/console
-//     $sid = 'AC3112db8ef99cddbb6ee563ef1f62e05d';
-//     $token = '91ab52eec20f7ba48acc07077842e460';
+//     $sid = ''; // <---Add your ids in quotes here
+//     $token = ''; // <---Add your token in quotes here
 
 //     $client = new Client($sid, $token);
 
